@@ -13,7 +13,13 @@ $ seq 6 | ./plus_stdin
 21.0
 
 #Σの計算ぷろぐらむです
+#plusコマンド
+([![test](https://github.com/kinji2546/robosys2020/actions/workflows/test.yml/badge.svg)](https://github.com/kinji2546/robosys2020/actions/workflows/test.yml)
+##必須ソフト
+* python
+ *テスト済み：3.7~3.10
 
-
+##テスト環境
+* Ubuntu
 
 * © 2023Nozaki  
