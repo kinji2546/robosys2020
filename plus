@@ -9,6 +9,7 @@ def tonum(s):
     except:
        return float(s)
 ans=0
+z =0
 for line in sys.stdin:
     line = line.rstrip()
     ans+=tonum(line)
@@ -16,12 +17,16 @@ for line in sys.stdin:
 print(ans)
 
 if ans <= 1:
-    print("素数ではない")
+    z = 0
 else:
     for i in range(2, int(ans**0.5)+1):
         if ans % i == 0:
-            print("素数ゥ")
+            z = 1
+            print("素数じゃない")
             break
         else:
-            print("素数ではない")
+            z = 0
             break
+
+if z==0:
+   print("素数ゥ")

@@ -7,8 +7,8 @@ ng () {
 }
 res=0
 
-out=$(seq 5 | ./plus)
-[ "${out}" = 15 ] || ng ${LINENO}
+out=$(seq 2 | ./plus)
+[ "${out}" = 3 ] || ng ${LINENO}i
 [ "$res" = 0 ] && echo OK 
 exit $[res]
 
