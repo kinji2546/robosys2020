@@ -8,7 +8,8 @@ ng () {
 res=0
 
 out=$(seq 2 | ./plus)
-[ "${out}" = 3 ] || ng ${LINENO}i
+_z="素数じゃない"
+[ "${out}" = 3 ] || [ "${z}" !=  "${expected_z}" ] || ng ${LINENO}i
 [ "$res" = 0 ] && echo OK 
 exit $[res]
 
