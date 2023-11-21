@@ -10,7 +10,8 @@ ng () {
 res=0
 
 output=$(./plus)
-
+#IFSを改行文字に設定して出力を分割し、配列に格納する
+IFS=$'\n' read -rd '' -a output_array <<< "$output"
 #1行目の出力が3であるか確認
 if [ "${output[0]}" == "3" ]; then
     echo "First output is 3: ${output[0]}"
