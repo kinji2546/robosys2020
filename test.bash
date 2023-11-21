@@ -25,5 +25,5 @@ else
     ng $LINENO
 fi
 
-[ "$res" = 0 ] && echo "OK"
+[ "$res" = 0 ] && echo "OK" || echo "Error: Something went wrong"
 exit $res
