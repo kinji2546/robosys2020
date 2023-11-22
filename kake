@@ -8,8 +8,8 @@ def tonum(s):
        return int(s)
     except:
        return float(s)
-ans=0
+ans=1
 for line in sys.stdin:
     line = line.rstrip()
-    ans+=tonum(line)
+    ans*=tonum(line)
 print(ans)
