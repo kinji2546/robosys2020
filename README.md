@@ -1,5 +1,6 @@
 # robosys2020  
-ロボットシステム学2023で使用したコマンド。  
+ロボットシステム学2023で使用したコマンドの倉庫。  
+初心者の書いたプログラム置き場のため、稚拙なプログラム・れどめが有り生暖かい目でご覧ください。   
 
 
 #Σの計算ぷろぐらむですが詳しく説明  
@@ -34,5 +35,5 @@
 * このパッケージのコードは，下記のスライド（CC-BY-SA 4.0 by Ryuichi Ueda）のものを，本人の許可を得て自身の著作としたものです．  
 * [ryuichiueda/my_slides robosys_2022](https://github.com/ryuichiueda/my_slides/tree/master/robosys_2022)  
 ## テスト環境  
-* Ubuntu  
+* Ubuntu 20.04 
 * © 2023Nozaki  
