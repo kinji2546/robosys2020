@@ -23,6 +23,20 @@
 
 ***
 
+#追加分の使い方  
+***  
+
+`$ seq 4 | ./hiki`  
+
+-10  
+`$ seq 4 | ./kake`  
+
+24  
+`$ ./beki`  
+
+2の何乗？: 4  
+16  
+***  
 
 # plusコマンド  
 ([![test](https://github.com/kinji2546/robosys2020/actions/workflows/test.yml/badge.svg)](https://github.com/kinji2546/robosys2020/actions/workflows/test.yml)  
