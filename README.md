@@ -15,8 +15,8 @@
 
 ***
 # 使い方及びインストール方法  
-# 実行例
 `$git clone https://github.com/kinji2546/robosys2020.git`  
+# 実行例
 `cd robosys2020`  
 `$ seq 6 | ./plus`  
 
