@@ -1,6 +1,7 @@
 # robosys2020  
 ロボットシステム学2023で使用したコマンドの倉庫。  
-初心者の書いたプログラム置き場のため、稚拙なプログラム・れどめが有り生暖かい目でご覧ください。   
+初心者の書いたプログラム置き場のため、稚拙なプログラムが有ります。  
+生暖かい目でご覧ください。   
 # plusコマンド  
 [![test](https://github.com/kinji2546/robosys2020/actions/workflows/test.yml/badge.svg)](https://github.com/kinji2546/robosys2020/actions/workflows/test.yml)  
 
