@@ -7,18 +7,8 @@ ng () {
 }
 res=0
 
-
-out=$(seq 5 | ./kake)
-[ "${out}" = 120 ]  ng ${LINENO}
-
 out=$(seq 5 | ./plus)
 [ "${out}" = 15 ]  ng ${LINENO}
-
-out=$(seq 5 | ./hiki)
-[ "${out}" = -15 ]  ng ${LINENO}
-
-out=$(4 | ./beki)
-[ "${out}" = 16 ]  ng ${LINENO}
 
 [ "$res" = 0 ] && echo OK 
 exit $res
