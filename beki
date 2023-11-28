@@ -1,0 +1,11 @@
+#!/usr/bin/python3
+#SPDX-FileCopyrightText: 2023 Nozaki
+#SPDX-License-Identifier: BSD-3-Clause
+import sys
+
+try:
+    n = int(input('2の累乗結果: '))
+    ans = 2 ** n
+    print(ans)
+except ValueError as moji:
+    print("数字を入力してください。")
