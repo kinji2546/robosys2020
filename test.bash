@@ -17,8 +17,8 @@ out=$(seq 5 | ./plus)
 out=$(seq 5 | ./hiki)
 [ "${out}" = -15 ] || ng ${LINENO}
 
-out=$(echo 4 | ./beki)
-[ "${out}" = "2の何乗？: 16" ] || ng ${LINENO}
+out=$(echo 10 | ./beki)
+[ "${out}" = "2の累乗結果: 1024" ] || ng ${LINENO}
 
 [ "$res" = 0 ] && echo OK 
 exit $res

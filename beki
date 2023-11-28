@@ -4,7 +4,7 @@
 import sys
 
 try:
-    n = int(input('2の何乗？: '))
+    n = int(input('2の累乗結果: '))
     ans = 2 ** n
     print(ans)
 except ValueError as moji:
