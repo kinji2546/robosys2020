@@ -18,7 +18,7 @@ out=$(seq 5 | ./hiki)
 [ "${out}" = -15 ] || ng ${LINENO}
 
 out=$(echo 4 | ./beki)
-[ "${out}" = 16 ] || ng ${LINENO}
+[ "${out}" = 2の何乗？: 16 ] || ng ${LINENO}
 
 [ "$res" = 0 ] && echo OK 
 exit $res
