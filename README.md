@@ -3,20 +3,20 @@
 初心者の書いたプログラム置き場のため、稚拙なプログラムが有ります。  
 生暖かい目でご覧ください。   
 # plusコマンド  
-([![test](https://github.com/kinji2546/robosys2020/actions/workflows/test.yml/badge.svg)](https://github.com/kinji2546/robosys2020/actions/workflows/test.yml)
+[![test](https://github.com/kinji2546/robosys2020/actions/workflows/test.yml/badge.svg)](https://github.com/kinji2546/robosys2020/actions/workflows/test.yml)
 
 
 # Σの計算プログラムですが詳しく説明  
 * このplusは、連続する数を足し合わせるものです。例えば、1から5までの和は1 + 2 + 3 + 4 + 5であり、これは15です。  
 * このhikiは、連続する数を引き算させ続けるものです。例えば、1から5までは-1-2-3-4-5であり、これは-15です。  
-* このkakeは、連続する数をかけ続けるものです。例えば、1から5までの積は1234*5であり、これは120です。  
+* このkakeは、連続する数をかけ続けるものです。例えば、1から5までの積は1*2*3*4*5であり、これは120です。  
 * このbekiは、2^nを計算するものですnの値はユーザーが決定できます。文字などが入力されたときの例外設定もしてあります。   
 
 ***
 # 使い方及びインストール方法  
 `$git clone https://github.com/kinji2546/robosys2020.git`  
-## 実行例  
 `cd robosys2020`  
+## 実行例  
 `$ seq 6 | ./plus`  
 
 ## 出力結果  
