@@ -17,7 +17,7 @@ out=$(seq 5 | ./plus)
 out=$(seq 5 | ./hiki)
 [ "${out}" = -15 ] || ng ${LINENO}
 
-out=$(4 | ./beki)
+out=$(echo 4 | ./beki)
 [ "${out}" = 16 ] || ng ${LINENO}
 
 [ "$res" = 0 ] && echo OK 
