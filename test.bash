@@ -7,7 +7,6 @@ ng () {
 }
 res=0
 
-
 out=$(seq 5 | ./kake)
 [ "${out}" = 120 ] || ng ${LINENO}
 
